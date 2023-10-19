@@ -81,7 +81,8 @@ Now we're in the home stretch! To assemble your `Train`, you'll need (at minimum
 
  -  a private `Engine` attribute, which we will mark with the keyword `final` to establish the **composition** relationship (e.g. `private final Engine engine;`)
  -  a private `ArrayList` to keep track of the `Car`s currently attached
- -  a constructor `public Train(FuelType fuelType, double fuelCapacity, int nCars, int passengerCapacity)` which will initialize the `Engine` and `Car`s and store them
+ -  a constructor `public Train(FuelType fuelType, double fuelCapacity, int nCars, int passengerCapacity)` which will initialize the `Engine` and `Car`s and store the]
+ 
  -  a couple of accessors: 
      -  `public Engine getEngine()`
      -  `public Car getCar(int i)` to return the `i`th car
